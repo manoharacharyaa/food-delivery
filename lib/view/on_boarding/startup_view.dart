@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:food_delivery/view/login/welcome_view.dart';
 
 class StartupView extends StatefulWidget {
   const StartupView({super.key});
@@ -9,8 +10,21 @@ class StartupView extends StatefulWidget {
 
 class _StartupViewState extends State<StartupView> {
   @override
+  void initState() {
+    super.initState();
+    goWelcomePage();
+  }
+
+  void goWelcomePage() async {
+    await Future.delayed(Duration(seconds: 2));
+    Navigator.push(
+        context, MaterialPageRoute(builder: (context) => const WelcomeView()));
+  }
+
+  @override
   Widget build(BuildContext context) {
     var media = MediaQuery.of(context).size;
+
     return Scaffold(
       body: Stack(
         alignment: Alignment.center,
