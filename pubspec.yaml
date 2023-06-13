@@ -1,0 +1,56 @@
+name: food_delivery
+description: A new Flutter project.
+
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.2 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/img/app_logo.png
+    - assets/img/facebook_logo.png
+    - assets/img/google_logo.png
+    - assets/img/on_boarding_1.png
+    - assets/img/on_boarding_2.png
+    - assets/img/on_boarding_3.png
+    - assets/img/splash_bg.png
+    - assets/img/tab_home.png
+    - assets/img/tab_menu.png
+    - assets/img/tab_more.png
+    - assets/img/tab_offer.png
+    - assets/img/tab_profile.png
+    - assets/img/welcome_top_shape.png
+    
+  fonts:
+    - family: Metropolis
+      fonts:
+        - asset: assets/font/Metropolis-Bold.otf
+          weight: 700
+        - asset: assets/font/Metropolis-ExtraBold.otf
+          weight: 800
+        - asset: assets/font/Metropolis-Medium.otf
+        - asset: assets/font/Metropolis-Regular.otf
+          weight: 500
+        - asset: assets/font/Metropolis-SemiBold.otf
+          weight: 600
+
+
+
+
