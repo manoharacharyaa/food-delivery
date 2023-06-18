@@ -14,6 +14,7 @@ class MyApp extends StatelessWidget {
       title: 'Food Delivery App',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
+        useMaterial3: true,
         fontFamily: "Metropolis",
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),

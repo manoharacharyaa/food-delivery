@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:food_delivery/common/colors.dart';
+import 'package:food_delivery/view/main_tabview/main_tabview.dart';
 import 'package:food_delivery/widget/round_button.dart';
 
 class OnBoardingView extends StatefulWidget {
@@ -122,8 +123,12 @@ class _OnBoardingViewState extends State<OnBoardingView> {
                     title: "Next",
                     onPressed: () {
                       if (selectPage >= 2) {
-                        //homepage
-                        print("Go Home");
+                        print("MainTabView");
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                              builder: (context) => MainTabView()),
+                        );
                       } else {
                         setState(() {
                           selectPage += 1;

@@ -48,7 +48,7 @@ class _WelcomeViewState extends State<WelcomeView> {
                 ),
               ),
             ),
-            SizedBox(height: media.width * 0.1),
+            SizedBox(height: media.width * 0.05),
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 25),
               child: RoundButton(
@@ -64,7 +64,7 @@ class _WelcomeViewState extends State<WelcomeView> {
                 type: RoundButtonType.bgPrimary,
               ),
             ),
-            SizedBox(height: media.width * 0.1),
+            SizedBox(height: media.width * 0.07),
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 25),
               child: RoundButton(
