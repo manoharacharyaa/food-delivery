@@ -1,11 +1,11 @@
 name: food_delivery
 description: A new Flutter project.
 
-publish_to: 'none' 
+publish_to: "none"
 version: 1.0.0+1
 
 environment:
-  sdk: '>=3.0.2 <4.0.0'
+  sdk: ">=3.0.2 <4.0.0"
 
 dependencies:
   flutter:
@@ -21,7 +21,6 @@ dev_dependencies:
   flutter_lints: ^2.0.0
 
 flutter:
-
   uses-material-design: true
 
   assets:
@@ -38,7 +37,10 @@ flutter:
     - assets/img/tab_offer.png
     - assets/img/tab_profile.png
     - assets/img/welcome_top_shape.png
-    
+    - assets/img/shopping_cart.png
+    - assets/img/dropdown.png
+    - assets/img/search.png
+
   fonts:
     - family: Metropolis
       fonts:
@@ -51,7 +53,3 @@ flutter:
           weight: 500
         - asset: assets/font/Metropolis-SemiBold.otf
           weight: 600
-
-
-
-
