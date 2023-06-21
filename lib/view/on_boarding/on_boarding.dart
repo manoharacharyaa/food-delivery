@@ -136,7 +136,7 @@ class _OnBoardingViewState extends State<OnBoardingView> {
                           controller.animateToPage(
                             selectPage,
                             duration: Duration(milliseconds: 500),
-                            curve: Curves.easeIn,
+                            curve: Curves.easeOut,
                           );
                         });
                       }
