@@ -40,6 +40,19 @@ flutter:
     - assets/img/shopping_cart.png
     - assets/img/dropdown.png
     - assets/img/search.png
+    - assets/img/cat_offer.png
+    - assets/img/cat_sri.png
+    - assets/img/cat_3.png
+    - assets/img/cat_4.png
+    - assets/img/res_1.png
+    - assets/img/res_2.png
+    - assets/img/res_3.png
+    - assets/img/m_res_1.png
+    - assets/img/m_res_2.png
+    - assets/img/item_1.png
+    - assets/img/item_2.png
+    - assets/img/item_3.png
+    - assets/img/rate.png
 
   fonts:
     - family: Metropolis

@@ -30,8 +30,7 @@ class RoundTextfield extends StatelessWidget {
         children: [
           if (left != null)
             Padding(
-              padding: const EdgeInsets.only(left: 15),
-              child: left!,
+              padding: const EdgeInsets.only(left: 10),
             ),
           Expanded(
             child: TextField(
