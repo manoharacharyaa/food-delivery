@@ -23,8 +23,8 @@ class RoundTextfield extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       decoration: BoxDecoration(
-        color: bgcolor ?? TColor.textfiels,
-        borderRadius: BorderRadius.circular(25),
+        color: bgcolor ?? TColor.searchfiels,
+        borderRadius: BorderRadius.circular(50),
       ),
       child: Row(
         children: [

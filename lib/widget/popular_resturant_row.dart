@@ -29,7 +29,7 @@ class PopularResturantRow extends StatelessWidget {
                 fit: BoxFit.cover,
               ),
             ),
-            SizedBox(height: 8),
+            SizedBox(height: 10),
             Text(
               cObj["name"],
               textAlign: TextAlign.center,
@@ -43,6 +43,7 @@ class PopularResturantRow extends StatelessWidget {
             Row(
               mainAxisAlignment: MainAxisAlignment.start,
               children: [
+                SizedBox(width: 2),
                 Image.asset(
                   "assets/img/rate.png",
                   width: 10,

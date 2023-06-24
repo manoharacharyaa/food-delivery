@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:food_delivery/common/colors.dart';
 import 'package:food_delivery/view/home/home_view.dart';
+import 'package:food_delivery/view/menu/menu_view.dart';
 import 'package:food_delivery/widget/tab_button.dart';
 
 class MainTabView extends StatefulWidget {
@@ -63,7 +64,7 @@ class _MainTabViewState extends State<MainTabView> {
                   if (selectTab != 0) {
                     selectTab = 0;
                     print("selectedtab ${selectTab}");
-                    selectPageView = Container();
+                    selectPageView = MenuView();
                   }
                   if (mounted) {
                     setState(() {});

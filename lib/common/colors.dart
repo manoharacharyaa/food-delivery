@@ -6,4 +6,5 @@ class TColor {
   static Color get secondaryText => Color(0XFF7C7D7E);
   static Color get textfiels => Color(0XFFF2F2F2);
   static Color get placeholder => Color(0XFFB6B7B7);
+  static Color get searchfiels => Color.fromARGB(255, 241, 237, 237);
 }
