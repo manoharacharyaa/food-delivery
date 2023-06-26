@@ -53,6 +53,16 @@ flutter:
     - assets/img/item_2.png
     - assets/img/item_3.png
     - assets/img/rate.png
+    - assets/img/menu_1.png
+    - assets/img/menu_2.png
+    - assets/img/menu_3.png
+    - assets/img/menu_4.png
+    - assets/img/btn_next.png
+    - assets/img/btn_back.png
+    - assets/img/dess_1.png
+    - assets/img/dess_2.png
+    - assets/img/dess_3.png
+    - assets/img/dess_4.png
 
   fonts:
     - family: Metropolis
