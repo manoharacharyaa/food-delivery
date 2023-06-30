@@ -13,6 +13,7 @@ dependencies:
 
   cupertino_icons: ^1.0.2
   otp_pin_field: ^1.2.0+2
+  flutter_rating_bar: ^4.0.1
 
 dev_dependencies:
   flutter_test:
@@ -63,6 +64,13 @@ flutter:
     - assets/img/dess_2.png
     - assets/img/dess_3.png
     - assets/img/dess_4.png
+    - assets/img/detail_top.png
+    - assets/img/shopping_add.png
+    - assets/img/favorites_btn.png
+    - assets/img/favorites_btn_2.png
+    - assets/img/offer_1.png
+    - assets/img/offer_2.png
+    - assets/img/offer_3.png
 
   fonts:
     - family: Metropolis

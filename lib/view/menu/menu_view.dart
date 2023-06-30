@@ -56,7 +56,10 @@ class _MenuViewState extends State<MenuView> {
               ),
               boxShadow: const [
                 BoxShadow(
-                    color: Colors.black12, blurRadius: 7, offset: Offset(0, 4)),
+                  color: Colors.black12,
+                  blurRadius: 7,
+                  offset: Offset(0, 4),
+                ),
               ],
             ),
           ),
@@ -140,7 +143,10 @@ class _MenuViewState extends State<MenuView> {
                             children: [
                               Container(
                                 margin: EdgeInsets.only(
-                                    top: 8, bottom: 8, right: 15),
+                                  top: 8,
+                                  bottom: 8,
+                                  right: 15,
+                                ),
                                 width: media.width - 100,
                                 height: 90,
                                 decoration: BoxDecoration(
@@ -153,9 +159,10 @@ class _MenuViewState extends State<MenuView> {
                                   ),
                                   boxShadow: const [
                                     BoxShadow(
-                                        color: Colors.black12,
-                                        blurRadius: 7,
-                                        offset: Offset(0, 4)),
+                                      color: Colors.black12,
+                                      blurRadius: 7,
+                                      offset: Offset(0, 4),
+                                    ),
                                   ],
                                 ),
                               ),
@@ -203,9 +210,10 @@ class _MenuViewState extends State<MenuView> {
                                       borderRadius: BorderRadius.circular(20),
                                       boxShadow: const [
                                         BoxShadow(
-                                            color: Colors.black12,
-                                            blurRadius: 4,
-                                            offset: Offset(0, 2)),
+                                          color: Colors.black12,
+                                          blurRadius: 4,
+                                          offset: Offset(0, 2),
+                                        ),
                                       ],
                                     ),
                                     alignment: Alignment.center,

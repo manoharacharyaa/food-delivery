@@ -38,7 +38,7 @@ class RoundButton extends StatelessWidget {
             color: type == RoundButtonType.bgPrimary
                 ? Colors.white
                 : TColor.primary,
-                fontSize: 16,
+            fontSize: 16,
             fontWeight: FontWeight.w600,
           ),
         ),

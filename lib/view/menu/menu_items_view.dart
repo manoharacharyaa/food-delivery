@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:food_delivery/common/colors.dart';
+import 'package:food_delivery/view/menu/item_details_view.dart';
 import 'package:food_delivery/widget/menu_item_row.dart';
 import 'package:food_delivery/widget/round_textfield.dart';
 
@@ -162,7 +163,14 @@ class _MyWidgetState extends State<MenuItemsView> {
                     var mObj = menuItemsArr[index] as Map? ?? {};
                     return MenuItemRow(
                       mObj: mObj,
-                      onTap: () {},
+                      onTap: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => ItemDetailsView(),
+                          ),
+                        );
+                      },
                     );
                   }),
                 ),

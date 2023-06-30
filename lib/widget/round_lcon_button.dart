@@ -4,14 +4,14 @@ class RoundIconButton extends StatelessWidget {
   const RoundIconButton({
     super.key,
     required this.assetimage,
-    required this.iconwidth,
+    this.iconwidth,
     required this.text,
     required this.buttoncolor,
     required this.onPressed,
   });
 
   final String assetimage;
-  final double iconwidth;
+  final double? iconwidth;
   final String text;
   final Color buttoncolor;
   final VoidCallback onPressed;
