@@ -116,7 +116,7 @@ class _MyWidgetState extends State<MenuItemsView> {
                           fontWeight: FontWeight.w800,
                         ),
                       ),
-                      SizedBox(width: 185),
+                      Spacer(),
                       IconButton(
                         onPressed: () {},
                         icon: Image.asset(

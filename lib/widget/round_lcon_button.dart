@@ -8,6 +8,9 @@ class RoundIconButton extends StatelessWidget {
     required this.text,
     required this.buttoncolor,
     required this.onPressed,
+    this.fontSize = 16,
+    this.widthSpace = 8,
+    this.fontWeight = FontWeight.w500,
   });
 
   final String assetimage;
@@ -15,6 +18,9 @@ class RoundIconButton extends StatelessWidget {
   final String text;
   final Color buttoncolor;
   final VoidCallback onPressed;
+  final double fontSize;
+  final double widthSpace;
+  final FontWeight fontWeight;
 
   @override
   Widget build(BuildContext context) {
@@ -34,12 +40,12 @@ class RoundIconButton extends StatelessWidget {
               assetimage,
               width: iconwidth,
             ),
-            SizedBox(width: 8),
+            SizedBox(width: widthSpace),
             Text(
               text,
               style: TextStyle(
                 color: Colors.white,
-                fontSize: 16,
+                fontSize: fontSize,
                 fontWeight: FontWeight.w600,
               ),
             ),
